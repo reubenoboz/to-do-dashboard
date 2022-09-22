@@ -1,0 +1,59 @@
+.container {
+    position: fixed;
+    background-color: var(--bg_white);
+    width: 6rem;
+    top: 0;
+    left: 0;
+    min-height: 100vh
+}
+
+.logoContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoContainer .logoImage {
+    margin-bottom: 0.3rem;
+}
+
+.logoContainer .logoName {
+    color:var(--text_secondary)
+}
+
+.linkContainer {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.linkContainer .link {
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    padding: 0.75rem;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkContainer .link .linkImage {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.linkContainer .link .linkImage path {
+    fill: var(--secondary);
+}
+
+.active {
+    background-color: var(--bg_primary) !important;
+}
+
+.active .linkImage path {
+    fill: var(--text_white) !important;
+}

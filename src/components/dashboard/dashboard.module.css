@@ -1,0 +1,33 @@
+.container {
+    width: 75%;
+    padding: 2.5rem 2.5rem 2.5rem 8.5rem;
+}
+
+.tableHeading {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.tableHeading h2 {
+    color: var(--text_secondary)
+}
+
+.tableContainer {
+    background-color: var(--bg_white);
+    border-radius: 1rem;
+    padding: 1rem
+}
+
+.tableContainer table {
+    width: 100%;
+}
+
+.tableContainer table th, td {
+    text-align: initial;
+    border-bottom: 1px solid var(--bg_gray);
+    padding: 1rem 1rem
+}
+
+td {
+    color: var(--text_black)
+}

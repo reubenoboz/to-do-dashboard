@@ -1,0 +1,16 @@
+.progressContainer {
+    color: var(--primary_light);
+}
+
+.progress{
+    margin-top: 0.5rem;
+    background-color: var(--bg_input);
+    height: 0.5rem;
+    border-radius: 1rem;
+}
+
+.progressBar {
+    background-color: var(--primary_light);
+    height: 0.5rem;
+    border-radius: 1rem;
+}

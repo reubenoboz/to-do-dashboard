@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.summaryCard{
+    width: 33.3333%;
+    height: 10rem;
+    background-color: var(--bg_white);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.upper .heading {
+    display: flex;
+    align-items: center;
+}
+
+.upper .heading .iconContainer {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--bg_gray);
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+}
+
+.count {
+    color: var(--text_black);
+    font-weight: 900;
+}
+
+.lower {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.lower .graph {
+    width: 50%;
+}
+
+.lower .description {
+    width: 50%;
+    text-align: right;
+}
+
+.greenHighlight {
+    color: #299702
+}
+
+.horLine {
+    border: 0;
+    border-bottom: 1px solid var(--bg_input);
+}

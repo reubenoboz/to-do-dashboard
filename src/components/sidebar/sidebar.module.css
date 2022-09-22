@@ -1,0 +1,112 @@
+.container {
+    background-color: var(--bg_white);
+    width: 25%;
+    min-height: 100vh;
+    padding: 2rem
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text_secondary)
+}
+
+.iconContainer {
+    background-color: var(--bg_gray);
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconContainer .icons {
+    cursor: pointer;
+}
+
+.messages {
+    margin-top: 1rem;
+}
+
+.messages .messageHeading {
+    color: var(--text_secondary);
+    margin-bottom: 1rem;
+}
+
+.messageBody {
+    display: flex;
+    padding: 0.5rem 0;
+    align-items: center;
+}
+
+.messageAvatar {
+    margin-right: 0.5rem;
+}
+
+
+.message .messageName {
+    color: var(--text_secondary);
+    font-weight: 700;
+}
+
+.horLine {
+    border: 1px solid var(--bg_gray);
+    margin-bottom: 1rem;
+}
+
+.newTaskHeading {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text_secondary);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.formInput label {
+    margin-bottom: 1rem;
+}
+
+.formInput input {
+    border: 0;
+    background-color: var(--bg_input);
+    padding: 0.6rem 1rem;
+    outline: none;
+    border-radius: 0.4rem;
+}
+
+.startDate {
+    margin-bottom: 2rem;
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.submitContainer .submitBtn {
+    width: 6rem;
+    cursor: pointer;
+    background-color: var(--bg_primary);
+    color: var(--text_white);
+    padding: 0.5rem 1rem;
+    border: 0;
+    border-radius: 0.5rem;
+    font-weight: 900;
+}
+
+.submitContainer .submitBtn:disabled {
+    background-color: var(--bg_input)
+}
+
+.error {
+    color: red;
+}

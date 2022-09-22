@@ -1,0 +1,32 @@
+.container {
+    background-color: var(--bg_white);
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.heading{ 
+    color: var(--text_secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.period {
+    display: flex;
+}
+
+.period div {
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.active {
+    color: var(--text_yellow) !important;
+    border-bottom: 2px solid var(--text_yellow);
+    padding-bottom: 0.5rem;
+    transition: 0.5s ease-in-out;
+}

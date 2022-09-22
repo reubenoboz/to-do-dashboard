@@ -1,0 +1,73 @@
+.container {
+    height: 5rem;
+    background-color: var(--bg_white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBox{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 2.5rem;
+        background-color: var(--bg_search);
+        padding: 1rem;
+        border-radius: 0.4rem;
+        width: 20rem;
+}
+
+.searchBox .searchInput {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 85%;
+    color: var(--text_secondary);
+    height: 2rem
+}
+
+.searchBox .searchInput::placeholder {
+    color: var(--text_secondary);
+}
+
+.searchBox .searchIcon {
+    width: 10%;
+    height: 1rem
+}
+
+.moreOptions {
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.notificationContainer {
+    position: relative;
+}
+
+.moreOptions .notificationContainer .notification {
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.notificationContainer .badge {
+    position: absolute;
+    top: -1px;
+    right: 1rem;
+    padding: 2px 5px;
+    border-radius: 50%;
+    background: var(--primary_light);
+    color: var(--text_white);
+    font-size: smaller;
+  }
+
+.moreOptions .avatar {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.moreOptions .caretDown {
+    cursor: pointer;
+    padding: 0.5rem;
+}
